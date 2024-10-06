@@ -1,5 +1,5 @@
 - name: create ec2 instance and r53 configure
-  hosts:local
+  hosts: local
   connection: local
   vars:
     subnet_id: subnet-0b96858c9a92b5ecc # replace with your subnet id
